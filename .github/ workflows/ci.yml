@@ -1,8 +1,8 @@
 name: Exemplo de CLI # Nome de ação
 
 on:
-  push: # Evento que irá disparar a ação
-    branches: [main] # Branch que irá disparar a ação
+    push: # Evento que irá disparar a ação
+      branches: [ main ] # Branch que irá disparar a ação
 
 
 jobs: # Trabalhos a serem executados
