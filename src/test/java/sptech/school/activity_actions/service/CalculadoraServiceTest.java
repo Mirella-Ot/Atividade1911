@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class CalculadoraServiceTest {
+public class CalculadoraServiceTest {
 
     @Test
     @DisplayName("Quando acionado com 10 e 2, então deve retornar 5")
