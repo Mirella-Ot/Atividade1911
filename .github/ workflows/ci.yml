@@ -2,10 +2,8 @@ name: Exemplo de CLI # Nome de ação
 
 on:
   push: # Evento que irá disparar a ação
-    branches: # Branch que irá disparar a ação
-      - main
-      - develop
-    types: [ opened, reopened ]
+    branches: [main] # Branch que irá disparar a ação
+
 
 jobs: # Trabalhos a serem executados
   build: #Nome do trabalho pode ser qualquer um de sua escolha
