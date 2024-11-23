@@ -1,8 +1,10 @@
 package sptech.school.activity_actions.service;
 
 import org.springframework.http.HttpStatusCode;
+import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;
 
+@Service
 public class CalculadoraService {
     public Double dividir(double a, double b) {
 
