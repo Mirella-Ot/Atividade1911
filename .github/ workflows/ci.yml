@@ -1,7 +1,7 @@
 name: Exemplo de CLI # Nome de ação
 
 on:
-  pull_request: # Evento que irá disparar a ação
+  push: # Evento que irá disparar a ação
     branches: # Branch que irá disparar a ação
       - main
       - develop
